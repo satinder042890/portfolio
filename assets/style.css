@@ -91,18 +91,16 @@ h1{
    word-spacing: 5px;
    font-size: 20px;
   }
-  #main{
-    height:600px;
-    overflow: auto;
-  }
+  
   .footer{
-      position: absolute;
+      position: fixed;
       right: 0;
       bottom: 0;
       left: 0;
       padding: 1rem;
       background-color: #efefef;
       text-align: center;
+      height:50px;
       /* color:white; */
     
   }
@@ -110,3 +108,22 @@ h1{
     text-decoration: none;
     color: black;
   }
+  #linkedin{
+    width:4%;
+    height:30px;
+    margin-right: 2%;
+    
+  }
+  #github{
+    width:5%;
+    height:35px;
+  }
+  #resume{
+    width:4%;
+    height:25px;
+  }
+  *{
+    box-sizing: border-box;
+  }
+
+  
