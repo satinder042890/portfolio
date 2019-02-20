@@ -5,11 +5,10 @@ function welcome(){
 }
 
 $(document).ready(function(){
+    $(".slide").on("click",function()
+    {
+       $("ul").slideToggle("slow");
+    });
 
-//    welcome();
-   $("#about").on("click",function(){
-    // $("#mainArea").empty();
-    $("#mainArea").load("about.html");
-});
-
+        
 });
