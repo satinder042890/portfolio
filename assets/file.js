@@ -9,6 +9,6 @@ $(document).ready(function(){
     {
        $("ul").slideToggle("slow");
     });
-
+    $('.parallax').parallax();
         
 });

@@ -1,14 +1,31 @@
 body{
-    /* background:url("http://pixelsharing.files.wordpress.com/2010/11/ornate-swirl-black-background-tileable-and-seamless-pattern.jpg"); */
-    background: url("https://wallpapertag.com/wallpaper/full/b/1/f/171991-vertical-black-background-tumblr-1920x1200-cell-phone.jpg");
-}
+    /* background: url("https://wallpapertag.com/wallpaper/full/b/1/f/171991-vertical-black-background-tumblr-1920x1200-cell-phone.jpg"); */
+  }
 .jumbotron{
     background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/95/3856767bc8aa37b.jpg");
     /* height: 100px; */
   }
+
+.introarea{
+     background:rgb(245, 142, 159);
+     padding:2%;
+}
+.portfolioarea{
+  background:rgb(104, 153, 153);
+  padding:2%;
+}
+/* .projectarea{
+  background: paleturquoise;
+  padding:2%;
+} */
 h1{
     color: black;
     font-family: 'Viga', sans-serif;
+}
+
+#portfolioHeading{
+    color:white;
+    font-size: 2vmax;
 }
 /* .nav-link{
   color: black;
@@ -89,46 +106,40 @@ h1{
     height:500px;
   }
   #intro{
-    color:white;
+    color:black;
    line-height: 40px;
    font-family: cursive;
    word-spacing: 5px;
    font-size: 20px;
   }
   
-  .footer{
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin-top: 2%;
-      padding: 1rem;
+  #footer{
       background-color: #efefef;
-      text-align: center;
-      height:50px;
+      height:150px;
       /* color:white; */
-      border-top:2px solid black;
+      /* border-top:2px solid black; */
+      padding: 2%;
     
   }
   #about,#portfolio,#contact{
     text-decoration: none;
     color: black;
-  }
+  } 
   #linkedin{
-    width:4%;
-    height:30px;
-    margin-right: 2%;
+    width:8%;
+    height:80px;
+    margin-right: 3%;
     
   }
-  #github{
-    width:5%;
-    height:35px;
+   #github{
+    width:12%;
+    height:110px;
   }
   #resume{
-    width:4%;
-    height:25px;
+    width:8%;
+    height:80px;
     
-  }
+  } 
 
   #links{
     border:2px solid white;
@@ -148,3 +159,6 @@ hr{
 .slide{
   color:white;
 }
+
+
+
